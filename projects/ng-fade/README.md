@@ -1,4 +1,4 @@
-# dgraph-orm
+# ng-fade
 A simple directive to add fading effect to your elements.
 
 ## Installation
