@@ -1,0 +1,65 @@
+.ng-fade-container {
+  box-sizing: border-box;
+
+  .ng-fade-title {
+    font-size: 3em;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .ng-fade-title-sider {
+    font-size: 1em;
+    margin-left: 25px;
+    color: darkgray;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .ng-fade-wrapper {
+    margin: 0 auto;
+    // margin-top: 100px;
+    overflow-y: scroll;
+    height: 640px;
+    overflow-x: hidden;
+
+    .ng-fade-info {
+      height: 400px;
+      text-align: center;
+
+      .ng-fade-info-title {
+        font-size: 2em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+    }
+
+    .ng-fade-background {
+      width: 100%;
+    }
+  }
+}
+
+
+.ng-fade-animated {
+  animation: fadeInUp 1s infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    padding-top: 0;
+    transition: ease;
+  }
+
+  to {
+    padding-top: -10px;
+    transition: ease-out;
+  }
+}
+
+
+@media(max-width: 468px) {
+  .ng-fade-wrapper {
+    height: 500px !important;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ngFade",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ng-fade",
+      "kebab-case"
+    ]
+  }
+}

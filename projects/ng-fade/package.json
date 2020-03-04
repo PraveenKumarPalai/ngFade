@@ -1,0 +1,30 @@
+{
+  "name": "ng-fade",
+  "version": "0.0.1",
+  "description": "A simple directive to add fading effect to your elements.",
+  "author": {
+    "email": "praveen.palai@outlook.com",
+    "name": "Praveen Kumar Palai",
+    "url": "https://github.com/PraveenKumarPalai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PraveenKumarPalai/ngFade.git"
+  },
+  "homepage": "https://github.com/PraveenKumarPalai/ngFade",
+  "keywords": [
+    "angular",
+    "ng",
+    "javascript",
+    "typescript",
+    "directive",
+    "fade",
+    "ngFade"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+
+}
