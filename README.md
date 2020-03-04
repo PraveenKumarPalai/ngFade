@@ -18,16 +18,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { NgFadeDirective } from 'ng-fade';
+import { NgFadeModule } from 'ng-fade';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NgFadeDirective
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgFadeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -36,15 +36,10 @@ export class AppModule { }
 
 ```
 
-## Add it to your element 
+## Add ngFade to your element 
 
 ```
-<div class="ng-fade-wrapper">
-    <div class="ng-fade-info">
-      <h1 class="ng-fade-info-title ng-fade-animated">Scroll to see the effect</h1>
-    </div>
     <img ngFade class="ng-fade-background" src="assets/images/fader.png">
-</div>
 ```
 
 
