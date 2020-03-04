@@ -1,7 +1,7 @@
 {
   "name": "ng-fade",
-  "version": "0.0.1",
-  "description": "A simple directive to add fading effect to your elements.",
+  "version": "0.0.3",
+  "description": "Support for Angular 8",
   "author": {
     "email": "praveen.palai@outlook.com",
     "name": "Praveen Kumar Palai",

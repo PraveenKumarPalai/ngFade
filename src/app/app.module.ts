@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // Import from node_modulse
-import { NgFadeDirective } from 'ng-fade';
+import { NgFadeModule } from 'ng-fade';
 
 // Local Import
 // import { NgFadeDirective } from 'projects/ng-fade/src/public-api';
@@ -13,11 +13,11 @@ import { NgFadeDirective } from 'ng-fade';
 @NgModule({
   declarations: [
     AppComponent,
-    NgFadeDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgFadeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
